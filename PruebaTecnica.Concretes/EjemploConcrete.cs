@@ -18,19 +18,12 @@ namespace PruebaTecnica.Concretes
                 };
             })
             .ToArray();
-            return respuesta;
+            //return respuesta;
         }
 
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
-
-        private class EjemploModelo
-        {
-            public DateTime Date { get; set; }
-            public int TemperatureC { get; set; }
-            public string Summary { get; set; }
-        }
     }
 }
